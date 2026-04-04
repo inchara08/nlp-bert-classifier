@@ -1,0 +1,27 @@
+model:
+  name: bert-base-uncased
+  num_labels: 3
+  max_length: 128
+
+training:
+  epochs: 3
+  batch_size: 16
+  learning_rate: 0.00002
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  gradient_clip: 1.0
+  early_stopping_patience: 2
+
+validation:
+  k_folds: 5
+  test_size: 0.15
+  val_size: 0.15
+  random_seed: 42
+
+data:
+  dataset_name: takala/financial_phrasebank
+  dataset_config: sentences_allagree
+  label_map:
+    negative: 0
+    neutral: 1
+    positive: 2
