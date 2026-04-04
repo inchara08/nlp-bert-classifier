@@ -1,6 +1,6 @@
 # Transformer-Based NLP Classifier — BERT Financial Sentiment
 
-End-to-end BERT pipeline for financial text classification on the FinancialPhraseBank dataset. Fine-tunes `bert-base-uncased` to classify financial news sentences as **positive**, **neutral**, or **negative** — directly applicable to news sentiment, earnings analysis, and market commentary.
+End-to-end BERT pipeline for financial text classification on the FinancialPhraseBank dataset. Fine-tunes `bert-base-uncased` to classify financial news sentences as **positive**, **neutral**, or **negative**, directly applicable to news sentiment, earnings analysis, and market commentary.
 
 ## Results
 
